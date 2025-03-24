@@ -38,7 +38,7 @@ public class Main {
         
 
         if(menor16 > 0){
-            System.out.println("Nome das pessoas com menos de 16 anos:");
+            System.out.println("Nome das pessoas com menos de 16 anos de idade:");
             for (int i = 0; i < n; i++){
                 if (pessoa[i].getIdade() < 16){
                     System.out.println(pessoa[i].getNome());
